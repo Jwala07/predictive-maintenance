@@ -60,7 +60,9 @@ Assumed cost (16,000 per unplanned failure, 3,000 planned repair, 500 per false-
 - Throughput is low (about 2.5 messages/s); fine for hourly data from 100 machines, not a high-throughput claim.
 
 ## Screenshots
-<add: Swagger /docs, dashboard live tab, dashboard test tab, Power BI report>
+![Swagger API](docs/swagger.png)
+![Dashboard live tab](docs/dashboard_live.png)
+![Dashboard test tab](docs/dashboard_test.png)
 
 ## Run locally
 ```bash
