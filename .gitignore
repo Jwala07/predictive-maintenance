@@ -1,14 +1,12 @@
 venv/
 .env
 __pycache__/
+.ipynb_checkpoints/
 data/raw/
 data/processed/
-.ipynb_checkpoints/
+data/exports/
 mlruns/
 mlflow.db
 mlartifacts/
-
 models/
-mlflow.db
-mlartifacts/
-data/exports/analysis_output.txt
+analysis_output.txt
