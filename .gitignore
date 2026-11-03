@@ -11,4 +11,4 @@ mlartifacts/
 models/
 mlflow.db
 mlartifacts/
-data/exports/
+data/exports/analysis_output.txt
