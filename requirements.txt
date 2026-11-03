@@ -1,0 +1,17 @@
+pandas
+numpy
+sqlalchemy
+psycopg2-binary
+python-dotenv
+pytest
+
+matplotlib
+seaborn
+jupyter
+ipykernel
+pyarrow
+lightgbm
+scikit-learn
+mlflow
+confluent-kafka
+streamlit
