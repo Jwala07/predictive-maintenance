@@ -25,7 +25,7 @@ flowchart LR
 ```
 
 ## Tech stack
-Python, PostgreSQL, pandas, scikit-learn, LightGBM, MLflow, Redpanda (Kafka API), FastAPI, Streamlit, pytest, Docker Compose, GitHub Actions.
+Python, PostgreSQL, pandas, scikit-learn, LightGBM, MLflow, Redpanda (Kafka API), FastAPI, Streamlit, pytest, Docker Compose (PostgreSQL and Redpanda only), GitHub Actions.
 
 ## Key findings (EDA, simulated data)
 - comp2 is the most frequent failure (34%); model1 machines fail about 2x more per machine than model4.
