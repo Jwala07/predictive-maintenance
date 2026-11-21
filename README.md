@@ -63,6 +63,7 @@ Assumed cost (16,000 per unplanned failure, 3,000 planned repair, 500 per false-
 ![Swagger API](docs/swagger.png)
 ![Dashboard live tab](docs/dashboard_live.png)
 ![Dashboard test tab](docs/dashboard_test.png)
+![Power BI report](docs/powerbi_report.png)
 
 ## Run locally
 ```bash
