@@ -10,3 +10,4 @@ mlflow.db
 mlartifacts/
 models/
 analysis_output.txt
+*.pbix

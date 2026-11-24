@@ -39,6 +39,12 @@ Python, PostgreSQL, pandas, scikit-learn, LightGBM, MLflow, Redpanda (Kafka API)
 - Class imbalance (about 2% positive rows) handled with class weights; accuracy is not used.
 - Threshold 0.5 was chosen from a validation cost sweep (cost is flat from 0.05 to 0.999), not from the test set.
 
+### Explainability (SHAP)
+![SHAP importance](docs/shap_importance.png)
+![SHAP beeswarm](docs/shap_beeswarm.png)
+
+Mean |SHAP| on a random test sample ranks the "hours since last maintenance" features (all four components) and the error2+error3 combo feature highest, followed by 24h sensor means. This differs from LightGBM's gain ranking, where error counts led. I have not verified why maintenance history ranks so high; the ablation shows the model loses little without it (precision 0.990 vs 0.997). SHAP describes model behaviour on simulated data, not causes of real failures.
+
 ### Results (test set, 2 months, 114 failure events)
 | Model | PR-AUC | Precision | Recall | False-alarm rows |
 |---|---|---|---|---|
